@@ -5,7 +5,7 @@
 <head>
 
 
-    <link href="{!! asset('css/app.css') !!}" media="all" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('css/app.css') }}" media="all" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/main.css') }}" media="all" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
