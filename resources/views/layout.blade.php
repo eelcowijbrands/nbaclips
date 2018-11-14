@@ -10,8 +10,8 @@
   <!--<link href="{{ ('https://ancient-fortress-19731.herokuapp.com/css/app.css') }}" media="all" rel="stylesheet" type="text/css" />
   <link href="{{ ('https://ancient-fortress-19731.herokuapp.com/css/main.css') }}" media="all" rel="stylesheet" type="text/css" />-->
 
-  <link href="{{ ('css/app.css') }}" media="all" rel="stylesheet" type="text/css" />
-  <link href="{{ ('css/main.css') }}" media="all" rel="stylesheet" type="text/css" />
+  <link href="{{ ('/css/app.css') }}" media="all" rel="stylesheet" type="text/css" />
+  <link href="{{ ('/css/main.css') }}" media="all" rel="stylesheet" type="text/css" />
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
