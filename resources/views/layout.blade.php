@@ -4,11 +4,8 @@
 
 <head>
 
-  <script type="text/javascript" src="{{asset ('https://code.jquery.com/jquery-1.9.1.min.js') }}"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="{{asset ('js/FeedEk.js') }}"></script>
-
- <!-- <link href="{{ ('https://ancient-fortress-19731.herokuapp.com/css/app.css') }}" media="all" rel="stylesheet" type="text/css" />
-  <link href="{{ ('https://ancient-fortress-19731.herokuapp.com/css/main.css') }}" media="all" rel="stylesheet" type="text/css" />-->
 
   <link href="{{ ('/css/app.css') }}" media="all" rel="stylesheet" type="text/css" />
   <link href="{{ ('/css/main.css') }}" media="all" rel="stylesheet" type="text/css" />
