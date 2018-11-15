@@ -2,15 +2,12 @@
 
 @section('content')
 
-    <h1 class="text-center">{{ $NBA }}</h1>
-
 <div id="divRss"></div>
 
 <script>
 $('#divRss').FeedEk ( {
-    FeedUrl : 'http://www.espn.com/espn/rss/nba/news',
+    FeedUrl : 'http://www.nba.com/topvideo/rss.xml',
     MaxCount : 10,
-    ShowDesc : true,
     ShowPubDate:true,
     TitleLinkTarget:'_blank'
   } );

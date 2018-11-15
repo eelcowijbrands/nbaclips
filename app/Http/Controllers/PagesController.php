@@ -13,6 +13,12 @@ class PagesController extends Controller
         ]);
     }
 
+    public function video()
+    {
+        return view('video');
+    }
+
+
     public function about()
     {
         return view('about');

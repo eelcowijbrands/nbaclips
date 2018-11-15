@@ -17,8 +17,8 @@
     border-bottom:none;
 }
 .itemTitle a {
-    font-weight:bold; 
-    color:#4EBAFF !important; 
+    font-weight:bolder; 
+    color:#00BFFF !important; 
     text-decoration:none 
 }
 
@@ -30,4 +30,3 @@
     font-size:11px;
     color:#AAAAAA;
 } 
-
