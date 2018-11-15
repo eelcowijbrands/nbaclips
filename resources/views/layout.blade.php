@@ -43,7 +43,7 @@
                   <div class="navbar-nav">
                     <a class="nav-item nav-link" href="/video">Video</a>
                     <a class="nav-item nav-link" href="/about">About</a>
-                    <a class="nav-item nav-link" href="/contact">Contact</a>
+                    <a class="nav-item nav-link" href="/contact-us">Contact</a>
                   </div>
                 </div>
         </nav>        
