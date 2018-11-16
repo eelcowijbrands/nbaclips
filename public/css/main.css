@@ -1,6 +1,7 @@
 
 .feedEkList {
-    width:100%; 
+    margin: auto;
+    width:50%; 
     list-style:none outside none;
     background-color:#FFFFFF; 
     border:1px solid #D3CAD7; 
@@ -17,8 +18,11 @@
     border-bottom:none;
 }
 .itemTitle a {
-    font-weight:bolder; 
-    color:#00BFFF !important; 
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 120%;
+    color:#333 !important; 
     text-decoration:none 
 }
 

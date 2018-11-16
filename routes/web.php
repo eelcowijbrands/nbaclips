@@ -14,6 +14,6 @@
 Route::get('/', 'PagesController@home');
 Route::get('/video', 'PagesController@video');
 Route::get('/about', 'PagesController@about');
-/*Route::get('/contact', 'PagesController@contact');*/
-Route::get('/contact-us', 'ContactUSController@contactUS');
+Route::get('/contact-us', 'PagesController@contact');
+/*Route::get('/contact-us', 'ContactUSController@contactUS');*/
 Route::post('/contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactSaveData']);
