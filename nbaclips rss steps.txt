@@ -1,0 +1,28 @@
+1. Download feedek plugin van https://www.jqueryscript.net/other/jQuery-RSS-ATOM-Feed-Handling-Plugin-FeedEk.html
+
+2. Uitgepakt in compdocuments (composer documents folder)
+
+3. Lees de README.md van de plugin
+
+4. Sleep FeedEK plugin in public js folder
+
+5. CSS file geopend in editor en inhoud gekopieerd naar de main.css file
+
+Tevens de volgende fix gebruikt om CSS zichtbaar te maken ivm http en https problemen:
+
+6. Externe jquery en lokale FeedEk.js toegevoegd aan <head> in layout.blade.php:
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script> (heb jquery geupdate naar 3.3.1 op 14-11-18)
+   	<script type="text/javascript" src="FeedEk.js"></script>
+
+Bovenstaande syntax werkt niet en moet omgezet worden naar:
+
+  	<script type="text/javascript" src="{{asset ('https://code.jquery.com/jquery-1.9.1.min.js') }}"></script> (heb jquery geupdate naar 3.3.1 op 14-11-18)
+  	<script type="text/javascript" src="{{asset ('js/FeedEk.js') }}"></script>
+
+! Van belang is dat je als eerste refereert naar jquery scripts in je <head> anders worden ze niet aangeroepen
+
+7. Jquery code zet je tussen <script></script> in dit geval in welcome.blade.php
+
+8. LET OP! Chrome leest de RSS feed alleen als je POP UP's toestaat in instellingen
+
+
